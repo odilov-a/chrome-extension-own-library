@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Library - Save Opened PDFs",
+  "version": "1.0",
+  "description": "Save local PDF paths opened in Chrome.",
+  "permissions": ["tabs", "storage", "activeTab"],
+  "host_permissions": ["file://*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
