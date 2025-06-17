@@ -45,22 +45,12 @@ A customizable Chrome extension boilerplate for building your own browser featur
 ```
 chrome-extension-own-library/
 │
-├── src/
-│   ├── background.js      # Background script
-│   ├── content.js         # Content script
-│   └── popup/
-│       ├── popup.html
-│       └── popup.js
+├── popup.html             # HTML&CSS, Bootstrap 5
+├── popup.js               # JavaScript logic
 ├── manifest.json          # Chrome Extension manifest
-├── icons/                 # Extension icons
+├── icon.png               # Extension icons
 └── README.md
 ```
-
-## Usage
-
-- Modify or add content/background scripts in `src/` to add new features.
-- Update `manifest.json` to register new scripts or permissions.
-- Customize popup UI and functionality in `src/popup/`.
 
 ## Development Tips
 
